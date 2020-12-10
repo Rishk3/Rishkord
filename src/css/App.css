@@ -1,0 +1,109 @@
+body {
+  --slack-color: #270d27;
+  color: #fff;
+  margin: 0;
+}
+h1,
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.pinkish__bg {
+  background: linear-gradient(
+    270.97deg,
+    #ffe580 -21.36%,
+    #ff7571 -2.45%,
+    #ea5dad 26.84%,
+    #c2a0fd 64.15%,
+    #3bf0e4 108.29%,
+    #b2f4b6 159.03%
+  );
+  opacity: 0.9;
+  backdrop-filter: blur(36px);
+  z-index: -1;
+}
+.green-bg {
+  background: linear-gradient(
+    272.22deg,
+    #3bf0e4 -14.27%,
+    #73f280 43.01%,
+    #b2f4b6 96.82%
+  );
+  -webkit-box-decoration-break: clone;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.curve {
+  background: radial-gradient(
+    1586.69px at 142.99% -142.62%,
+    #4b0491 0,
+    #e52451 100%
+  );
+  background-image: radial-gradient(
+    1586.69px at 142.99% -142.62%,
+    rgb(75, 4, 145) 0px,
+    rgb(229, 36, 81) 100%
+  );
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+.module-border-wrap {
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, rgb(126, 6, 6), rgb(0, 128, 38));
+  padding: 3px;
+}
+
+.module {
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 2rem;
+}
+
+.text-gradient {
+  background: linear-gradient(
+    270.97deg,
+    #ffe580 -21.36%,
+    #ff7571 -2.45%,
+    #ea5dad 26.84%,
+    #c2a0fd 64.15%,
+    #3bf0e4 108.29%,
+    #b2f4b6 159.03%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-purple {
+  background: linear-gradient(87.54deg, #9867f0 -6.8%, #ed4e50 84.14%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.module-border-wrap {
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+}
+
+.module {
+  background: #222;
+  color: white;
+  padding: 2rem;
+}
+.app__body {
+  display: flex;
+}

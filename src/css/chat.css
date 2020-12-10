@@ -1,0 +1,32 @@
+.chat {
+  flex: 1;
+}
+.chat__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+.chat__header__right > p {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.chat__roomId {
+  text-align: left;
+  padding: 0px 15px;
+}
+.chat__header__left > h4 {
+  display: flex;
+}
+.chat__header__left > h4 > .MuiSvgIcon-root {
+  font-size: 16px !important;
+  margin-left: 10px;
+  align-self: center;
+}
+.chat__header__right > p > .MuiSvgIcon-root {
+  margin-right: 5px !important;
+  font-size: 16px !important;
+  align-self: flex-end;
+}

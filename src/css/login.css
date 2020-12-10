@@ -1,0 +1,32 @@
+.login__container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+  margin-left: 30vw;
+  margin: 20px 20vw;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.login__container > button {
+  color: #fff;
+  cursor: pointer;
+}
+
+.login__google {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 5px;
+}
+.login > .pinkish__bg {
+  padding: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 50px;
+  letter-spacing: 1.5px;
+  color: rgb(255, 255, 255);
+}

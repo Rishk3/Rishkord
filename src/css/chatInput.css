@@ -1,0 +1,15 @@
+.chatInput__form > button {
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+}
+.chatInput {
+  border-radius: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+.chatInput > form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+.sidebar {
+  margin-top: 0;
+  background-color: #19151a;
+  max-width: 230px;
+  min-width: 200px;
+  position: relative;
+  flex: 0.3;
+}
+.sidebar {
+  max-height: 100vh;
+}
+.github_icon {
+  align-self: center;
+}
+.sidebar__info {
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+}
+.sidebar__info .MuiSvgIcon-root {
+  padding: 7px;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #0f1127;
+  background-color: #fff;
+  border-radius: 99px;
+}
+.sidebar__info__title {
+  flex: 1;
+}
+@media (max-width: 768px) {
+}
