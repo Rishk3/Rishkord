@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Rishkord
+
+### An Online Platform to chat and make discussions in different rooms with various Topics
+
+## this Project is based on the Firebase+React+Context APi Technologies Just a Basic template
+
+## Live version is hosted at [https://rishkify.web.app/](https://rishkify.web.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

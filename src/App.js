@@ -25,7 +25,11 @@ const [{user},dispatch] = useStateValue();
         <Chat/>
        </Route>
        <Route path="/">
-         <h2>Welcome</h2>
+         
+         <p className="green-bg" style={{textAlign:"left",margin:"20px"}}>Welcome to Rishkord.<br/> You can add channels and send your message in the rooms you like <br/><br/>
+         <p className="text-gradient"><i>Remember these message will be public to all everyone can see your messages </i></p>
+          </p>
+          
          {/* <Chat/> */}
        </Route>
      </Switch>

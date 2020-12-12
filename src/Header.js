@@ -27,7 +27,10 @@ function Header() {
                
             </div>
             <div className="github_icon">
-             <GitHubIcon/>
+                <a style={{color:"white"}} href="https://github.com/Rishk3/Rishkord" rel="noopener noreferrer" target="_blank">
+                <GitHubIcon/>
+                </a>
+            
             </div>
             </div>
            
